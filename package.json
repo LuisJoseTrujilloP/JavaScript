@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/LuisJoseTrujilloP/JavaScript-Asynchronous/issues"
   },
-  "homepage": "https://github.com/LuisJoseTrujilloP/JavaScript-Asynchronous#readme"
+  "homepage": "https://github.com/LuisJoseTrujilloP/JavaScript-Asynchronous#readme",
+  "dependencies": {
+    "xmlhttprequest": "^1.8.0"
+  }
 }
