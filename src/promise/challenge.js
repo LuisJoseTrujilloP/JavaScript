@@ -6,7 +6,7 @@ const API = 'https://rickandmortyapi.com/api/character/';
 
 fetchData(API)
     .then(data => {
-        console.log(data.info.count);
+        console.log(data.info.count);1
         return fetchData(`${API}${data.results[0].id}`)
     })
     .then(data => {
@@ -23,6 +23,25 @@ fetchData(API)
 
 
 
+// NOTAS VENTAJAS Y DESVENTAJAS
+
+                                        // VENTAJA  
+
+// FACILMENTE ENLAZABLE, CON UN THEN LO ENLAZO CON EL RETURN SIGUIENTE, TENER MUCHAS MAS LLAMADAS ENLAZADAS 
+
+
+
+// ES PODEROSO, NOS PERMITE TRABAJAR MUCHO CON ASYNCRONISMO
+
+
+                                    // DESVENTAJAS  
+
+
+// NO MANEJA EXEPCIONES SINO UN CATCH AL FINAL
+
+// PROPENSOS A ERRORES SI NO RETORNAMOS EL SIGUIENTE LLAMADO
+
+// REQUIERE UN POTIFY PARA PODER FUNCIONAR EN TODOS LOS NAVEGADORES
 
 
 

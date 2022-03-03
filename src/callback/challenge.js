@@ -43,3 +43,26 @@ fetchData(API, function (error1, data1) {
 // PROMESAS  algo va a suceder.
 
 const promise1 = new Promise((resolve, reject) => reject("reject"))
+
+
+
+// NOTAS VENTAJAS Y DESVENTAJAS
+
+                                        // VENTAJA  
+
+// SIMPLESA  FACIL DE IMPLEMENTAR,  
+
+// SON UNIVERSALES CORREN EN CUALQUIER NAVEGADOR  
+
+
+                                    // DESVENTAJAS  
+
+
+// COMPOSICION PUEDE SER ALGO TOXICA, POR CADA ELEMENTE HAY QUE HACER UNA NUEVA ANIDACION LO CUAL ES CONTRAPRODUCENTE
+// PARA EVITAR EL CALL BACK HELL  
+
+
+// FLUJO POCO INTUITIVO TAMBIEN EL IF ERROR POR CADA CASO 
+
+
+
